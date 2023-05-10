@@ -156,3 +156,44 @@
 }
 
 /*Header bottom end*/
+
+/* HEADER END*/
+
+/*SKILLS START*/
+
+.skills-mainbox {
+  width: 1440px;
+  height: 610px;
+}
+
+.skill-elements {
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  height: 430px;
+  margin: 84px 241px 96px 239px;
+  background-color: #ffffff;
+}
+
+.skill-elements .skill-title h2 {
+  width: 128px;
+  height: 58px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #4832d3;
+  margin-top: 30px;
+}
+
+.img1 {
+  margin-left: 120px;
+  width: 290px;
+  height: 430px;
+  object-fit: cover;
+}
+
+.img2 {
+  margin-left: 120px;
+  width: 251px;
+  height: 430px;
+  object-fit: cover;
+}

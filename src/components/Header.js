@@ -38,7 +38,6 @@ export default function Header() {
             </div>
           </div>
           <img src="https://bishopco.net/wp-content/uploads/2020/01/iStock-1043032608-scaled.jpg" />
-          <div className="overflowed"></div>
         </div>
         <div className="header-mid-right"></div>
       </div>
