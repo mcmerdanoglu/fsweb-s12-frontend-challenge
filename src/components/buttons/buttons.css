@@ -1,0 +1,59 @@
+/*visit-buttons */
+
+/*visit-github*/
+
+.visit-github {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 120px;
+  height: 52px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.visit-github svg {
+  width: 30px;
+  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #3730a3;
+}
+
+.visit-github span {
+  width: 59px;
+  height: 28px;
+  padding: 30 px 0 12px 0;
+  text-decoration: none;
+  color: #3730a3;
+}
+
+/*visit-linkedin*/
+
+.visit-linkedin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 130px;
+  height: 52px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.visit-linkedin svg {
+  width: 30px;
+  height: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #3730a3;
+}
+
+.visit-linkedin span {
+  width: 59px;
+  height: 28px;
+  padding: 30 px 0 12px 0;
+  text-decoration: none;
+  color: #3730a3;
+}
