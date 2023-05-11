@@ -1,5 +1,5 @@
 import Diziler from "../screenshots/diziler2.png";
-import Filmler from "../screenshots/filmler.png";
+import Filmler from "../screenshots/filmler2.png";
 
 export default function Projects() {
   return (
