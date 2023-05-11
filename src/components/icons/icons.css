@@ -1,0 +1,19 @@
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.icons a {
+  width: 32px;
+  height: 26px;
+}
+
+.email-icon path {
+  stroke: white;
+  stroke-width: 25;
+}
+
+.email-icon path:nth-of-type(2) {
+  fill: #1da1f2;
+}

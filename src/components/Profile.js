@@ -28,7 +28,10 @@ export default function Profile() {
             </div>
           </div>
         </div>
-        <img src="https://media.istockphoto.com/id/1194430826/photo/software-developer-programming-finding-solutions-while-working-on-desktop-computers-in-data.jpg?s=170667a&w=0&k=20&c=qgUc8LvKMcAqcZVJ9YTdSorwC90xiEls_HigGULk1jE=" />
+        <img
+          src="https://media.istockphoto.com/id/1194430826/photo/software-developer-programming-finding-solutions-while-working-on-desktop-computers-in-data.jpg?s=170667a&w=0&k=20&c=qgUc8LvKMcAqcZVJ9YTdSorwC90xiEls_HigGULk1jE="
+          alt="working"
+        />
         <div className="about">
           <h4>About Me</h4>
           <div className="lorem">
