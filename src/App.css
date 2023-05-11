@@ -197,3 +197,243 @@
   height: 430px;
   object-fit: cover;
 }
+/*SKILLS END*/
+
+/*PROFILE START*/
+
+/*Basic info start*/
+
+.profile-mainbox {
+  width: 1440px;
+  height: 552px;
+  background-color: #4731d3;
+}
+
+.profile-title {
+  margin-top: 84px;
+  margin-left: 240px;
+  color: #cbf281;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.profile-elements {
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  height: 291px;
+  margin-top: 33px;
+  margin-left: 240px;
+}
+
+.basic-info h4 {
+  width: 300px;
+  height: 28px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.basic-info .info {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.basic-info .questions {
+  display: flex;
+  flex-direction: column;
+  width: 101px;
+  height: 222px;
+  margin-top: 24px;
+  gap: 24px;
+}
+
+.basic-info .questions p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #cbf281;
+}
+
+.basic-info .answers {
+  display: flex;
+  flex-direction: column;
+  width: 189px;
+  height: 222px;
+  margin-top: 24px;
+  gap: 24px;
+}
+
+.basic-info .answers p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+/*Basic info end*/
+
+/*Profile Image start*/
+
+.profile-elements img {
+  margin: 0 30px 0 30px;
+  width: 300px;
+  height: 290px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/*Profile Image end*/
+
+/*About start*/
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.about h4 {
+  width: 300px;
+  height: 25px;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.about .lorem {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 242px;
+  margin-top: 24px;
+  /* align-content: space-between; */
+  gap: 24px;
+}
+
+.lorem p {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  font-style: normal;
+}
+
+/*About end*/
+
+/*PROFILE END*/
+
+/*PROJECTS START*/
+
+.projects-mainbox {
+  width: 1440px;
+  height: 999px;
+  background-color: #cbf281;
+}
+
+.projects-mainbox h2 {
+  color: #4731d3;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  width: 198px;
+  height: 48px;
+  margin: 84px 1002px 27px 240px;
+}
+
+.project-box {
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  height: 360px;
+  margin: 27px 240px 36px 240px;
+}
+
+.project-box img {
+  width: 360px;
+  height: 360px;
+  border-radius: 12px 0px 0px 12px;
+  object-fit: none;
+  border-right: 1px solid #d2d2d2;
+}
+
+.project-explanation {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 360px;
+  background-color: #ffffff;
+  border-radius: 0px 12px 12px 0px;
+}
+
+.project-explanation h4 {
+  margin: 56.5px 32px 24px 48px;
+  width: 520px;
+  height: 32px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  font-style: normal;
+  color: #4338ca;
+}
+
+.project-explanation p {
+  width: 520px;
+  height: 100px;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #383838;
+  margin: 0px 32px 24px 48px;
+}
+
+.button-box {
+  display: flex;
+  flex-direction: row;
+  width: 296px;
+  height: 31px;
+  gap: 6px;
+  align-items: flex-start;
+  padding: 0;
+  margin-bottom: 24px;
+  margin-left: 48px;
+}
+
+.button-box button {
+  background-color: #4731d3;
+  color: #ffffff;
+  border: none;
+  width: 71px;
+  height: 31px;
+  border-radius: 23px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 500;
+}
+
+.project-links {
+  width: 181px;
+  height: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+  margin-left: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.project-links a {
+  color: #120b39;
+}
+
+.project-box.down {
+  margin-top: 36px;
+}
+
+.project-box.down img {
+  object-fit: fill;
+}
+/*PROJECTS END*/
