@@ -16,10 +16,11 @@ export default function Header() {
         </div>
         <div className="header-top-right">
           <div className="light-dark">
-            <label>
-              <input type="checkbox" />
-              <span>{t("dark")}</span>
+            <label className="toggle-switch">
+              <input type="checkbox" className="toggle-switch-checkbox" />
+              <span className="slider round"></span>
             </label>
+            <span className="mode-text">{t("dark")}</span>
           </div>
         </div>
       </div>

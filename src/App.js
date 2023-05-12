@@ -1,5 +1,5 @@
 import "./App.css";
-import { NavLink, Switch, Route } from "react-router-dom";
+// import { NavLink, Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Skills from "./components/Skills";
 import Profile from "./components/Profile";
