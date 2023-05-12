@@ -1,11 +1,21 @@
 import React from "react";
+import { useState } from "react";
 import GitHubButton from "./buttons/GitHubButon";
 import LinkedInButton from "./buttons/LinkedinButton";
 import LanguageSwitch from "./LanguageSwitch";
 import { useTranslation } from "react-i18next";
+import ModeSwitch from "./ModeSwitch";
 
 export default function Header() {
+  const [darkMode, setDarkMode] = useState(() => {
+    const savedDarkMode = localStorage.getItem("darkMode");
+    return savedDarkMode ? JSON.parse(savedDarkMode) : false;
+  });
   const { t, i18n } = useTranslation();
+
+  const handleToggle = () => {
+    setDarkMode(!darkMode);
+  };
 
   return (
     <div className="header-mainbox">
@@ -15,13 +25,14 @@ export default function Header() {
           <p className="name">cem</p>
         </div>
         <div className="header-top-right">
-          <div className="light-dark">
+          {/* <div className="light-dark">
             <label className="toggle-switch">
               <input type="checkbox" className="toggle-switch-checkbox" />
               <span className="slider round"></span>
             </label>
             <span className="mode-text">{t("dark")}</span>
-          </div>
+          </div> */}
+          <ModeSwitch darkMode={darkMode} handleToggle={handleToggle} />
         </div>
       </div>
       <div className="header-mid">
