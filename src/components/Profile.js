@@ -25,8 +25,8 @@ export default function Profile() {
             </div>
             <div className="answers">
               <p>24.03.1996</p>
-              <p></p>
               <p>Ankara</p>
+              <p></p>
               <p>Hacettepe Ünv. Biyoloji Lisans, 2016</p>
               <p>Frontend, UI</p>
             </div>
