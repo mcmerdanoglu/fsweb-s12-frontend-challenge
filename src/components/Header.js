@@ -1,25 +1,24 @@
 import React from "react";
 import GitHubButton from "./buttons/GitHubButon";
 import LinkedInButton from "./buttons/LinkedinButton";
+import LanguageSwitch from "./LanguageSwitch";
+import { useTranslation } from "react-i18next";
 
 export default function Header() {
+  const { t, i18n } = useTranslation();
+
   return (
     <div className="header-mainbox">
       <div className="header-top">
         <div className="header-top-left">
-          <div className="language">
-            {" "}
-            <p>
-              TÜRKÇE<span>'YE GEÇ</span>{" "}
-            </p>
-          </div>
+          <LanguageSwitch /*className="language" yazmaya gerek kalmadı*/ />
           <p className="name">cem</p>
         </div>
         <div className="header-top-right">
           <div className="light-dark">
             <label>
               <input type="checkbox" />
-              <span>DARK MODE</span>
+              <span>{t("dark")}</span>
             </label>
           </div>
         </div>
@@ -27,11 +26,8 @@ export default function Header() {
       <div className="header-mid">
         <div className="header-mid-left">
           <div className="hero">
-            <h1>I am a full-stack developer...</h1>
-            <p>
-              ...who likes to craft solid and scalable frontend products with
-              great user experiences.
-            </p>
+            <h1>{t("heroTitle")}</h1>
+            <p> {t("heroMotto")} </p>
             <div className="visit-buttons">
               <GitHubButton username="mcmerdanoglu" repo="?tab=repositories" />
               <LinkedInButton profileUrl="https://www.linkedin.com" />

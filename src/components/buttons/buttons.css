@@ -58,10 +58,16 @@
   width: 59px;
   height: 28px;
   padding: 30 px 0 12px 0;
-  text-decoration: none;
   color: #3730a3;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
 }
+
+/*çalışmadı*/
+/* .linkedin-icon {
+  border: none;
+  text-decoration: none;
+  fill: #3730a3;
+} */

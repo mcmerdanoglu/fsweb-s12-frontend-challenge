@@ -1,4 +1,8 @@
+import { useTranslation } from "react-i18next";
+
 export default function Profile() {
+  const { t, i18n } = useTranslation();
+
   const basicInfo = {
     Birth: "24.03.1996",
     City: "Ankara",
@@ -8,16 +12,16 @@ export default function Profile() {
 
   return (
     <div className="profile-mainbox">
-      <h2 className="profile-title">Profile</h2>
+      <h2 className="profile-title">{t("profile")}</h2>
       <div className="profile-elements">
         <div className="basic-info">
-          <h4>Basic Information</h4>
+          <h4>{t("basicInfo")}</h4>
           <div className="info">
             <div className="questions">
-              <p>Date of Birth</p>
-              <p>City of Residence</p>
-              <p>Graduate Level</p>
-              <p>Preffered Role</p>
+              <p>{t("birth")}</p>
+              <p>{t("city")}</p>
+              <p>{t("education")}</p>
+              <p>{t("role")}</p>
             </div>
             <div className="answers">
               <p>24.03.1996</p>
@@ -33,16 +37,10 @@ export default function Profile() {
           alt="working"
         />
         <div className="about">
-          <h4>About Me</h4>
+          <h4>{t("about")}</h4>
           <div className="lorem">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
-              aut, odit laborum aliquam voluptatum nisi mollitia.{" "}
-            </p>
-            <p>
-              Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod
-              deserunt quam temporibus cumque magnam!
-            </p>
+            <p>{t("lorem1")}</p>
+            <p>{t("lorem2")}</p>
           </div>
         </div>
       </div>

@@ -1,13 +1,14 @@
 import SocialIcons from "./icons/SocialIcons";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t, i18n } = useTranslation();
+
   return (
     <div className="footer-mainbox">
       <div className="contact-box">
-        <h2>Send me a message!</h2>
-        <p className="motto">
-          Got a question or proposal, or just want to say hello? Go ahead.
-        </p>
+        <h2>{t("sendMessage")}</h2>
+        <p className="motto">{t("contact")}</p>
         <a href="mailto:mcmerdanoglu@gmail.com" className="email">
           mcmerdanoglu@gmail.com
         </a>
