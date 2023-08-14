@@ -42,7 +42,7 @@ export default function Header() {
             <p> {t("heroMotto")} </p>
             <div className="visit-buttons">
               <GitHubButton username="mcmerdanoglu" repo="?tab=repositories" />
-              <LinkedInButton profileUrl="https://www.linkedin.com" />
+              <LinkedInButton profileUrl="https://www.linkedin.com/in/mcmerdanoglu03/" />
             </div>
           </div>
           <img src="https://bishopco.net/wp-content/uploads/2020/01/iStock-1043032608-scaled.jpg" />
