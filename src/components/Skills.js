@@ -7,13 +7,15 @@ export default function Skills() {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="skills-mainbox">
-      <div className="skill-elements">
-        <div className="skill-title">
-          <h2>{t("skills")}</h2>
+    <div className="skills-surrounder">
+      <div className="skills-mainbox">
+        <div className="skill-elements">
+          <div className="skill-title">
+            <h2>{t("skills")}</h2>
+          </div>
+          <img src={SkillBoxes1} alt="skillboxes1" className="img1" />
+          <img src={SkillBoxes2} alt="skillboxes2" className="img2" />
         </div>
-        <img src={SkillBoxes1} alt="skillboxes1" className="img1" />
-        <img src={SkillBoxes2} alt="skillboxes2" className="img2" />
       </div>
     </div>
   );

@@ -1,11 +1,31 @@
 .App {
+  width: 100vw;
+  max-height: 3286px;
+}
+
+.app-container {
+  width: auto;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: auto;
-  height: 3286px;
 }
+
 /* HEADER START*/
+
+.header-top-left.left,
+.header-mid-left.left,
+.header-bottom-left.left {
+  max-width: 70vw;
+  background-color: #4731d3;
+}
+
+.header-top-right.right,
+.header-mid-right.right,
+.header-bottom-right.right {
+  max-width: 30vw;
+  background-color: #cbf281;
+}
 
 /* Heaer Top*/
 .header-mainbox {
@@ -221,6 +241,13 @@
 
 /*SKILLS START*/
 
+.skills-surrounder {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
 .skills-mainbox {
   width: 1440px;
   height: 610px;
@@ -262,6 +289,13 @@
 /*PROFILE START*/
 
 /*Basic info start*/
+
+.profile-surrounder {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #4731d3;
+}
 
 .profile-mainbox {
   width: 1440px;
@@ -386,6 +420,12 @@
 /*PROFILE END*/
 
 /*PROJECTS START*/
+.projects-surrounder {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #cbf281;
+}
 
 .projects-mainbox {
   width: 1440px;
@@ -499,6 +539,13 @@
 /*PROJECTS END*/
 
 /*FOOTER START*/
+
+.footer-surrounder {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
 
 .footer-mainbox {
   width: 1440px;
